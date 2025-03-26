@@ -1,0 +1,138 @@
+.poster-container {
+    background-color: black;
+    padding-top: 100px;
+}
+.card-container {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.px-180 {
+    padding-left: 180px;
+    padding-right: 180px;;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.flex {
+    display: flex;
+    gap: 50px;
+}
+.card, .poster-img {
+    border-radius: 10px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.big-digit {
+    top: 50%;
+    left: -20px;
+    color: white;
+    font-size: 100px;
+}
+.poster-img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
+.card:last-child .poster-img{
+    width: 90px;
+}
+.font-white {
+    color: white;
+}
+.info-icon {
+    right: 15px;
+    bottom: 15px;
+}
+.img-container {
+    justify-content: center;
+}
+.info {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(122,16,104,1) 100%);
+    border-radius: 10px;
+    height: 250px;
+    padding: 15px;
+}
+.info-container, .questions-container, .title-container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.info-container {
+    gap: 30px;
+}
+.grey-font {
+    color: grey;
+}
+.info-title {
+    font-size: 25px;
+}
+.info p {
+    font-weight: bold;
+}
+.questions {
+    background-color: rgb(68, 67, 67);
+    padding: 25px;
+    font-size: 30px;
+}
+.plus-icon {
+    color: white;
+    right: 25px;
+    top: 25px;
+    font-size: 50px;
+}
+.questions-container {
+    flex-direction: row;
+    gap: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.get-started {
+    justify-content: center;
+}
+.email-wrapper {
+    width: 900px;
+}
+.email-wrapper input {
+    padding: 20px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    width: 687px;
+    border: 1px solid lightgray;
+}
+.email-wrapper button {
+    background-color: red;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    font-size: 25px;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+.links div {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 15px; 
+}
+.links {
+    justify-content: space-between;
+}
+.english-btn {
+    background-color: black;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
